@@ -1,0 +1,160 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+	color:white;
+}
+
+a {
+	color:red;
+}
+
+/*Index Homepage*/
+
+.index-intro{
+    font-size: 18px;
+    margin-bottom: 25vh;
+    padding:10px;
+
+
+}
+
+.index-row{
+	display: flex;
+	flex-wrap: wrap;
+    padding:10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-top:2px solid white;
+
+}
+.index-name{
+    flex:0 0 50%;
+}
+
+.index-layer{
+	flex:0 0 25%;
+
+}
+
+.index-tag{
+	flex:0 0 25%;
+
+}
+/*IP Address*/
+.ip{
+	background-color: mediumblue;
+	height:100vh;
+	width: 100vw;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.ip-text{
+    font-size: 16vw;
+    text-align: center;
+
+}
+/*checkers*/
+
+.checkers{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.checkers-white{
+	width: 50vw;
+	height:50vh;
+	background-color: white;
+
+}
+.checkers-black{
+	width: 50vw;
+	height:50vh;
+	background-color: black;
+
+}
+
+/*Checkers type*/
+
+.checkers-type{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	top:0;
+
+}
+.checkers-text{
+	font-size:30vw;
+	color:magenta;
+	border:38px solid magenta;
+	padding:2vw;
+	border-radius: 5vw;
+    
+}
+/*Cloud Pattern*/
+
+.cloud-pattern{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: linear-gradient(white,blue);
+}
+.cloud-circle{
+	width: 25vw;
+	height:33.33vh;
+	background-image: linear-gradient(blue,white);
+	border-radius: 50%;
+
+}
+/*chip*/
+.chip-container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lime;
+}
+.chip{
+	width: 60vh;
+	height: 60vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1px solid grey;
+	padding:5vh;
+	background-color: black;
+
+}
+.text{
+	color:grey;
+	font-size: 5vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
