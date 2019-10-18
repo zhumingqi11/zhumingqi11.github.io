@@ -12,23 +12,23 @@ a {
 /*Index Homepage*/
 
 .index-intro{
-    font-size: 18px;
-    margin-bottom: 25vh;
-    padding:10px;
+  font-size: 18px;
+  margin-bottom: 25vh;
+  padding:10px;
 
 }
 
 .index-row{
 	display: flex;
 	flex-wrap: wrap;
-    padding:10px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border-top:2px solid white;
+  padding:10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-top:2px solid white;
 
 }
 .index-name{
-    flex:0 0 50%;
+  flex:0 0 50%;
 }
 
 .index-layer{
@@ -49,8 +49,8 @@ a {
 	align-items:center;
 	justify-content: center;
 	animation: blur 4s ease 0s infinite;
-    -webkit-animation: blur 4s ease 0s infinite;
-    -moz-animation: blur 4s ease 0s infinite;
+  -webkit-animation: blur 4s ease 0s infinite;
+  -moz-animation: blur 4s ease 0s infinite;
 }
 
 #earth{
@@ -63,16 +63,16 @@ a {
 @keyframes blur {
   0%,
   90% {
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
   }
   50% {
-    -webkit-filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
-    -ms-filter: blur(50px);
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(50px);
+  -o-filter: blur(50px);
+  -ms-filter: blur(50px);
 
 }
 }
@@ -125,10 +125,8 @@ a {
 	width: 100vw;
 	height: 100vh;
 	justify-content: center;
-    animation-name: example;
-    animation-duration: 4s;
-
-
+  animation-name: example;
+  animation-duration: 4s;
 }
 .cloud-circle{
 	width: 30vw;
@@ -141,13 +139,13 @@ a {
 #earthtrans {
 	height: 80vh;
 	width: 80vh;
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
-    mix-blend-mode:difference;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  mix-blend-mode:difference;
 }
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
@@ -168,8 +166,8 @@ a {
 	height:100vh;
 }
 .worldmap img{
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 	object-fit: cover;
 	background-color: #000;
 	border-radius: 50%;
@@ -194,25 +192,25 @@ a {
 	color:pink;
 	position: absolute;
 	text-align: center;
-    mix-blend-mode:difference;
-    font-size: 200px;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-    text-shadow: 1px 1px 1px #919191,
+  mix-blend-mode:difference;
+  font-size: 200px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  text-shadow: 1px 1px 1px #919191,
 	1px 2px 1px #919191,
 	1px 3px 1px #919191,
 	1px 4px 1px #919191,
 	1px 5px 1px #919191,
 	1px 6px 1px #919191,
-    1px 7px 1px #919191,
+  1px 7px 1px #919191,
 	1px 8px 1px #919191,
 	1px 9px 1px #919191,
 	1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
 }
 
 
@@ -281,14 +279,14 @@ a {
 .earth-text2{
 	font-size: 300px;
 	background: -webkit-linear-gradient(45deg, red, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 10px red;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 10px red;
 }
 
 /*spaceodyssey*/
 
-.space img {
+.space1 img {
 	width: 100%;
 	position: absolute;
 	mix-blend-mode: difference;
@@ -302,7 +300,7 @@ a {
 	position: absolute;
 }
 .text-earth{
-    position: absolute;
+  position: absolute;
 	top:5vh;
 	display: flex;
 	width:100%;
@@ -313,26 +311,26 @@ a {
 }
 
 .text-location{
-    width:100%;
+  width:100%;
 	font-size: 100px;
 	overflow: hidden;
-    font-family: Helvetica,Arial,sans-serif;
-    border:20px solid white;
-    display: flex;
-    font-weight: 700;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    mix-blend-mode: difference;
+  font-family: Helvetica,Arial,sans-serif;
+  border:20px solid white;
+  display: flex;
+  font-weight: 700;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  mix-blend-mode: difference;
 }
 
 /*rongdong8*/
 .rongdong img{
-   max-width: 100%;
-   height:70vh;
-   border: 30px solid purple;
-   margin:0 auto;
-   display: block;
-   text-align: center;
+  max-width: 100%;
+  height:70vh;
+  border: 30px solid purple;
+  margin:0 auto;
+  display: block;
+  text-align: center;
 }
 
 .horizontal {
@@ -351,12 +349,12 @@ a {
 }
 
 .rotate3 {
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-   font-size:15vh;
-   margin-left:0px;
-   background-color:orange;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size:15vh;
+  margin-left:0px;
+  background-color:orange;
 }
 
 .rotate-text{
@@ -365,15 +363,15 @@ a {
 
 /*earthdead*/
 .dead{
-	background-color: black;
-	height:100vh;
-	width: 100vw;
-	display: flex;
-	align-items:center;
-	justify-content: center;
+  background-color: black;
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 .dead-earth{
-    display: flex;
+  display: flex;
 	width: 100%;
 	height: auto;
 
@@ -398,90 +396,440 @@ a {
 }
 .broken-text{
 	font-family: Helvetica,Arial,sans-serif;
-	color:pink;
+	color:#71FF00;
 	position: absolute;
 	text-align: center;
-    mix-blend-mode:difference;
-    font-size: 200px;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-    text-shadow: 1px 1px 1px #919191,
-	1px 2px 1px #919191,
-	1px 3px 1px #919191,
-	1px 4px 1px #919191,
-	1px 5px 1px #919191,
-	1px 6px 1px #919191,
-    1px 7px 1px #919191,
-	1px 8px 1px #919191,
-	1px 9px 1px #919191,
-	1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+  mix-blend-mode:difference;
+  font-size: 200px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  text-shadow: 1px 1px 1px #FF0000,
+	1px 2px 1px #FF0000,
+	1px 3px 1px #FF0000,
+	1px 4px 1px #FF0000,
+	1px 5px 1px #FF0000,
+	1px 6px 1px #FF0000,
+  1px 7px 1px #FF0000,
+	1px 8px 1px #FF0000,
+	1px 9px 1px #FF0000,
+	1px 10px 1px #FF0000,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
 }
 
 
 /*chip*/ 
 
-.chip-container{
-    width: 100vw;
-    height:100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
-.chip{
-	width: 60vh;
-	height: 60vh;
-	border:1px solid grey;
-	padding:10vh;
-	background-color: black;
-  position: absolute;
+
+.chip {
+  width:50%;
+  height:50vh;
+  padding: 5vh;
+  background-color: black;
+  border:1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chip .text-apple {
+  color:gray;
+  font-size:5vh;
+  font-weight: normal;
+  text-align: center;
+}
+#chip1{
+  background-image: linear-gradient(lime, pink);
+}
+#chip2{
+  background-image: linear-gradient(pink, lime);
+}
+#chip3{
+  background-image: linear-gradient(lime, pink);
+}
+#chip4{
+  background-image: linear-gradient(pink, lime);
+}
+/*cpu*/
+
+.pattern1s {
+  margin:0 auto;
+  width: 100vw;
+  height:100vh;
+  display: flex;
 
 }
-.text-apple{
-	color:grey;
-	font-size: 10vw;
-  position: relative;
+
+.pattern11  {
+  width: 50vw;
+  float: left;
+  margin: 0 auto;
+
+}
+
+.stripe {
+  width:100%;
+  height:5.56vh;
+}
+
+.s-green {
+  background-color: black;
+}
+
+.s-blue {
+  background-color: blue;
+}
+
+.s-black {
+  background-color: magenta;
+}
+
+.s-white {
+  background-color: green;
+}
+
+.stripe-dot {
+  width:50vw;
+  height:50vh;
+  position: fixed;
+  top:0;
+  float: left;
+  z-index: 9;
+  mix-blend-mode: difference;
+}
+
+
+/*tongci*/
+.comp {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.comp-black {
+  flex:0 0 50%;
+  height:100vh;
+  background-image:linear-gradient(blue, black, transparent);
+}
+
+.comp-white {
+  flex:1 0 50%;
+  height:100vh;
+  background-image:linear-gradient(black, blue, transparent);
+}
+
+
+.comp-type {
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.comp-text {
+  font-size:2vw;
+  color:white;
+  font-family:helvetica,arial;
+  padding: 10vw;
+  border:4px solid white;
+  border-radius:20px;
+  letter-spacing:1vw;
+}
+
+/*interface emoji*/
+.code-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradientBG 1s ease infinite;
+}
+
+#trump{ 
+  margin: 20px auto;
   text-align: center;
   justify-content: center;
-  display: inline-block;
+  position: relative;
 }
-.chip-left{
-  	transform: rotate(90deg);
-  	transform-origin:center left;
-  	font-family: Helvetica,Arial,sans-serif;
-  	font-size:5vh;
-  	color:grey;
-  	position: relative;
+.trump-text{
+  font-size: 10vw;
+  position: absolute;
+  top: 40%;
+  -webkit-text-decoration-color: red;
+  text-decoration-color: red;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+  -webkit-text-stroke: 5px black;
+  left: 10%;
+  right: 10%;
 }
-.chip-top{
-  	transform: rotate(180deg);
-  	transform-origin:top left;
-  	font-family: Helvetica,Arial,sans-serif;
-  	font-size:5vh;
-  	color:grey;
-  	position: relative;
+
+
+/*hack*/
+.screen {
+  display:flex;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
 }
-.chip-right{
-  	transform: rotate(270deg);
-  	transform-origin:top right;
-  	font-family: Helvetica,Arial,sans-serif;
-  	font-size:5vh;
-  	color:grey;
-  	position: relative;
+
+.screen-blue {
+  width:50%;
+  height:100vh;
+  background-color:blue;
 }
-.chip-buttom{
-  	transform: rotate(-180deg);
-  	transform-origin:bottom right;
-  	font-family: Helvetica,Arial,sans-serif;
-  	font-size:5vh;
-  	color:grey;
-  	position: relative;
+
+.screen-green {
+  width:50%;
+  height:100vh;
+  background-color:lime;
 }
+.danger{
+  position: absolute;
+  display: flex;
+  width:100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.danger-text{
+  font-family:helvetica,arial;
+  font-size: 7vw;
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  border: 10px solid red;
+}
+.danger{
+  -webkit-animation: shine 1s infinite;
+  -moz-animation:    shine 1s infinite;
+  -o-animation:      shine 1s infinite;
+  animation:         shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes shine {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes shine {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes shine {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* Interface Emoji*/
+.emoji {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.emoji-red {
+  width: 50%;
+  height: 50vh;
+  background: linear-gradient(magenta, yellow, red, white);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  animation: emojired 5s ease-in-out infinite ;
+
+}
+@keyframes emojired {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.emoji-blue {
+  width: 50%;
+  height: 50vh;
+  background: linear-gradient(red, yellow, magenta, orange);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.emoji-green {
+  width: 50%;
+  height: 50vh;
+  background: linear-gradient(red, yellow, black);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.emoji-black {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(red, black, blue, orange);
+}
+.emoji-text{
+  display:flex;
+  flex-wrap:wrap;
+  font-size:400%;
+}
+
+/*Interface return*/
+
+.return{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.return-type{
+  display: flex;
+  align-items: baseline;
+  border:2px solid white;
+  border-radius: 10px;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.return-text{
+  text-align: center;
+  font-weight: 200;
+  font-size: 5vw;
+
+}
+.return-arrow{
+  font-size: 10vw;
+}
+.return-sure{
+  position: absolute;
+  padding-top:40%;
+  padding-bottom: 5%;
+  font-size: 10vw;
+}
+
+/*Interface window*/
+
+.window-container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(blue, black, green);
+  animation: bgpos 1s infinite linear alternate;
+}
+@keyframes bgpos {
+  0% {
+  background-position:0 100vh;
+  }
+
+  100% {
+  background-position:0 0px;
+  }
+}
+
+.window{
+  font-size: 3vw;
+  height: auto;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+/* box-shadow */
+ -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+.window-head{
+  display: flex;
+  position: relative;
+  background-color: blue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+}
+#warning{
+    margin-left: 5%;
+}
+#close{
+  border: 0.5vw solid red;
+  border-radius: 10%;
+  padding: 0.5vw;
+  position: absolute;
+  right: 2%;
+}
+.window-content{
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60vw;
+  background-color: grey;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+.window-logo{
+  padding:5%;
+  height: auto;
+  border-radius: 50%;
+}
+.window-text{
+  justify-content: left;
+  padding:5%;
+  height: auto;
+}
+#window1{
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+#window2{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+#window3{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 15%;
+}
+#window4{
+  position: absolute;
+  margin-left: 23%;
+  margin-top: 32%;
+}
+
+/*dimension*/
+
+
+
+
 
 
 
