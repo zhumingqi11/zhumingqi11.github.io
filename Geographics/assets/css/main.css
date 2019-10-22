@@ -11,6 +11,11 @@ a {
 
 /*Index Homepage*/
 
+iframe {
+  overflow: hidden;
+  pointer-events: none;
+}
+
 .index-intro{
   font-size: 18px;
   margin-bottom: 25vh;
@@ -827,8 +832,86 @@ a {
 
 /*dimension*/
 
+.all-blocks {
+  display: flex;
+  background: black;
+}
 
+.all-blocks div {
+  border-radius: 50%;
+  animation:blur 0.5s infinite alternate;
+}
 
+@keyframes blur {
+  0% {
+      filter:blur(50px);
+  }
+  
+  100%{
+      filter:blur(0px);
+  }
+}
+
+.blocks-rgb {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 100vh;
+  padding:20px;
+}
+
+.blocks-red {
+  background-color: yellow;
+  height: 50%;
+  width: 50%;
+}
+
+.blocks-blue {
+  background-color: blue;
+  height: 50%;
+  width: 50%;
+}
+
+.blocks-green {
+  background-color: lime;
+  height: 50%;
+  width: 50%;
+}
+
+.blocks-black {
+  background-color: red;
+  height: 50%;
+  width: 50%;
+}
+
+.blocks-grays {
+  width: 25%;
+  padding:20px;
+  position: relative;
+}
+
+.blocks-gray1 {
+  height: 10%;
+  background-color: #000;
+}
+.blocks-gray2 {
+  height: 25%;
+  background-color: #333;
+}
+.blocks-gray3 {
+  height: 25%;
+  background-color: #999;
+}
+.blocks-gray4 {
+  height: 25%;
+  background-color: #eee;
+}
+
+.rgb-text{
+  position: absolute;
+  font-family: arial;
+  font-size: 150px;
+}
 
 
 
