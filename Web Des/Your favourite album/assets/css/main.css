@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 24px;
+	background-color: #181818;
+  height: auto;
+}
+
+#open{
+  width: 100%;
+  height: 300vh;
+  background: #181818;
+  
+}
+.open-title{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ 
+  
+}
+.word-1{
+  margin-top: 20%;
+  opacity: 1;
+  font-size: 7vw;
+  color:cyan;
+
+  
+
+}
+.word-2{
+  margin-top: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 5vw;
+  color: white;
+ 
+}
+.word-3{
+  margin-top: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40%;
+  font-size: 5vw;
+  color: white;
+}
+.word-4{
+  margin-bottom: 20%;
+  font-size: 7vw;
+  color: magenta;
+}
+
+.head{
+  color: white;
+}
+#content{
+	display: flex;
+}
+
+.main-content{
+	
+}
+.header{
+  margin: 0 auto;
+	width:100vw;
+
+}
+
+.img-container img {
+  display: block;
+  max-width: 80%;
+  padding: 10px;
+  border: 2px solid white;
+  margin-left:10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.img-container{
+    height: auto;
+   
+}
+.album-title {
+    font-size: 2.3em;
+    font-family: 'Staatliches', cursive;
+    padding: 0.5em ;
+    line-height: 45px;
+    font-weight: 400;
+    color:white;
+}
+
+
+.alt-grid [class*="col-"] {padding-left:0;padding-right:0}
+.alt-grid .row {margin-left:0;margin-right:0}
+
+/* container adjusted */
+.alt-grid .container {width:100%;max-width:none;padding:0;}
+
+
+/*animation*/
+
+.img-responsive{
+    box-shadow:-8px -8px 0 cyan, 8px 8px 0 magenta;
+    -moz-transition: all .51s;
+-o-transition: all .51s;
+-webkit-transition: all .51s;
+transition: all .51s;
+}
+.img-responsive:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius:50%;
+}
+
+/*main page*/
+
+.my-container{
+    
+    height:100%;
+}
+.my-row{
+    margin-top: 10px;
+    height: auto;
+}
+.my-col{
+    width: 100%;
+    margin:0 auto; 
+    line-height: 40px;
+    margin-top: 10px;
+    
+    
+}
+.my-col-title{
+    height:4em; 
+    border-bottom:5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio{
+  margin-bottom: 5%;
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+.pop-content{
+    padding: 1em;
+}
+.row-info{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.pic {
+    padding:1rem;
+    border:2px solid black;
+    margin: 5% 0;
+    width: 80%;
+}
+/*modal*/
+.modal-container {
+  display: none ;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+.info-container {
+  display: none ;
+  border: 20px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  display:flex;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1; 
+  background-color: yellow;
+  width: 80%;
+  min-height: 800px;
+  max-height: calc(100vh - 210px);
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  padding: 0.5em;
+
+}
+.img-responsive-height
+{
+  display: block;
+  width: 60%;
+  max-height: 100%
+}
+
+.info {
+  padding-left: 10px;
+  float: left;
+  width: 60%;
+  padding-right: 5%;
+  display: block;
+  height: 100%;
+}
+.artist{
+    border: 2px solid black;
+    height: 4rem;
+    font-size: 2em;
+    padding-top:2%;
+    text-align: center;
+    justify-content: center;
+}
+.name{
+  float: left;
+  font-size: 4vw;
+  margin-top: 1rem;
+
+}
+.country{
+  float: left;
+  margin-top: 1rem;
+  font-size: 2vw;
+}
+.grene{
+  border: 1px solid black;
+  width: 7em;
+  padding: 2px 5px;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  font-size: 1.2vw;
+}
+
+.albumname{
+  border: 2px solid black;
+  height:4rem;
+  padding-top:2%;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.music {
+  float: right;
+  right: 0;
+  width: 40%;
+
+}
+
+.musicplayer{
+  border: 2px solid black;
+  margin-top: 10%;
+  background: -webkit-linear-gradient(to left, rgba(69,162,71,0.7), rgba(40,60,134,0.7));
+  background: linear-gradient(to left, rgba(69,162,71,0.7), rgba(40,60,134,0.7))
+  }
+}
+
+
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  
+    .pics{
+    width: 66.66%;
+    max-width: 400px;
+    }
+    body{
+      background-color: white;
+
+    }
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .pics{
+    max-width: 400px;
+    }
+    .grene{
+    margin-top: 20%;
+  }
+ 
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .pics{
+        max-width: 380px;
+        margin-right:1rem !important;
+        margin-left: 1rem !important;
+    }
+    .info-container{
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      overflow:auto;
+      
+    }
+    .info{
+      float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+  .music{
+    width: 100%;
+  }
+  .grene{
+    margin-top: 15%;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    
+    .pics{
+        max-width: 600px;
+        margin-top: 0 !important;
+       
+    }
+    .info-container{
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      overflow:auto;
+      
+    }
+    .info{
+      float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+  .music{
+    width: 100%;
+  }
+  .grene{
+    margin-top: 15%;
+  }
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .pics{
+    max-width: 600px;
+    margin-top: 0 !important;
+     
+  }
+  .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    overflow:auto;
+      
+  }
+  .info{
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  }
+  .music{
+    width: 100%;
+  }
+  .grene{
+    margin-top: 15%;
+  }
+  
+    
+}
+
+
+
+
+
