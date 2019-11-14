@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700,800&display=swap');
+
+*{
+  	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+
+}
+body {
+   font-size: 18px;
+   font-family: 'Work Sans', sans-serif; 
+   
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   line-height: 1.45;
+}
+/*nav*/
+.wrapper {
+    align-items: stretch;
+    width: 100%;
+    display: flex;
+}
+#sidebar {
+	width: 20%;
+    background: black;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    float: right;
+}
+
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: white;
+}
+
+.sidebar{
+	font-size: 2rem;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+
+}
+
+#sidebar ul li a {
+    font-size: 1.7rem;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
+
+.popup {
+  background-color: white;
+  width:400px;
+  height:400px;
+  font-size:20px;
+  position:fixed;
+  right:0px;
+  top:0px;
+  box-shadow:0px 0px 200px red;
+  display:none;
+  cursor:pointer;
+  z-index: 990;
+  color: black;
+  padding: 1em;
+}
+.para1{
+	justify-content: center;
+	text-align: center;
+	padding: 2rem 0;
+}
+
+.click-welcome {
+  color:red;
+  cursor:pointer;
+  font-size: 5rem;
+}
+
+
+.popup-show {
+  display:block;
+}
+
+
+.btn {
+  font-size: 2rem;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+
+}
+
+.sidebar-content {
+	padding: 10px;
+
+}
+#sidebar:hover{
+	z-index: 999;
+}
+#info{
+	font-size: 3rem;
+}
+#head{
+	color: black;
+	-webkit-text-stroke: 2px white;
+	font-weight:600;
+	margin-top: 27px;
+	font-size: 11vw;
+}
+
+#accordion{
+	margin-left: 3%;
+	width: 100%;
+}
+
+.artist{
+	display: inline-block;
+	color:white;
+  	-webkit-text-stroke: 2px black;
+		
+}
+.track{
+	display: inline-block;
+  	padding-bottom: .25em;
+  	text-decoration: none;
+  	-webkit-text-stroke: 2px red;
+  	color:white;
+
+}
+.soundcloud iframe{
+    width: 500px;
+    height: 300px;
+    min-width: 300px;
+}
+.track:hover{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  	background-position: bottom;
+  	background-repeat: repeat-x;
+  	background-size: 20%;
+  	border-bottom: 0;
+  	padding-bottom: 20px;
+  	text-decoration: none;
+  	color: red;
+}
+.artist-name{
+	font-family: 'Work Sans', sans-serif; 
+	font-weight:600;
+	font-size: 11vw;
+    display: inline-block;
+    margin-right: 0.2em;
+}
+.artist-song{
+	font-family: 'Work Sans', sans-serif; 
+	font-weight:600;
+	font-size: 11vw;
+	display: inline-block;
+	margin-right: 0.2em;
+}
+.info{
+	margin: 1em 0;
+	display: block;
+	width: 90%;
+	height: 400px;
+}
+.info-cont{
+	display: inline-block;	
+	width: 100%;
+	padding-left: 15px;	
+	margin-left: 18%;
+}
+.para{
+	
+	font-size: 0.8em;
+	float: left;
+	width: 40%;
+	line-height:1.45;
+	background-color: white;
+}
+
+.para-info{
+	margin: 5% 0;
+	width: 300px;	
+	
+}
+a.para-href {
+    font-size: 1em;
+    margin-top: 5%;
+}
+.images{
+	float: right;
+	margin-left: 10%;
+}
+
+
+.info-cont{
+	
+    font-size: 1.5em;
+    color: black;
+ 	margin:0 0.3em 0.3em 0;
+  
+}
+a{
+	color: black;
+}
+
+.accordion-container {
+		position: relative;
+		width: 100%;
+		border-top: none;
+		outline: 0;
+		cursor: pointer
+}
+
+.accordion-container .article-title {
+		display: block;
+		position: relative;
+		margin: 0;
+		padding: 0.625em 0.625em 0.625em 2em;
+		font-size: 1.25em;
+		font-weight: normal;
+		color: black;
+		cursor: pointer;
+}
+.content-entry{
+	width: 100%;
+}
+.accordion-container .article-title:hover,
+.accordion-container .article-title:active,
+.accordion-container .content-entry.open .article-title {
+		
+		
+}
+
+.accordion-container .article-title:hover i:before,
+.accordion-container .article-title:hover i:active,
+.accordion-container .content-entry.open i {
+		
+}
+
+.accordion-container .content-entry i {
+		position: absolute;	
+		
+		font-size: 1.625em;
+}
+
+
+
+.accordion-content {
+		display: none;
+		padding-left: 2.3125em;
+		height: auto;
+		margin: 5% 0;
+}
+/* This stuff is just for the Codepen demo */
+
+#content {
+		
+}
+
+.accordion-container,
+
+
+@media all and (min-width: 860px) {
+		
+}
+
+
+
+
+@media only screen and (min-width: 1030px){
+	.soundcloud{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 768px){
+	.soundcloud{
+		width: 70%;
+	}
+}
+
+
+
+@media only screen and (min-width: 481px){
+     .soundcloud{
+     	
+     }
+}
+
+
+
+
+
+
+
+
