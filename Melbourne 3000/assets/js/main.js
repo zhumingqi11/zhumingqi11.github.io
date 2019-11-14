@@ -1,10 +1,9 @@
 $( document ).ready(function() {
        $('.click-welcome').click(function() {
-  $('.popup-welcome').addClass('popup-show');
-  $('.popup-welcome').click(function(){
-    $(this).removeClass('popup-show');
-  });
-});
+  		$('.popup-welcome').toggle('popup-show');
+  		
+  		
+	});
         
 
         
