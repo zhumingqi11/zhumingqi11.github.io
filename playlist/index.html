@@ -6,22 +6,188 @@
     <title>Boilerplate Starter kit v1.08</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
-  	<script src="assets/js/jquery-3.4.1.min.js"></script>
-  	<script src="assets/js/main.js"></script>
+    <link href="assets/css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    
+              
+    
   </head>
   <body>
     <!-- DO NOT REMOVE ABOVE -->
     <!-- start here -->
+    <header>
+      <div class="head">
+        <h1 id='head' class='wrap' data-splitting>
+          <a  href="#0" class='hvr-skew'>MEL</a>
+          <a  href="#0" class='hvr-pop'>B</a>
+          <a  href="#0" class='hvr-grow'>OU</a>
+          <a  href="#0" class='hvr-bob'>RNE</a>
+          <a  href="#0" class='hvr-skew' style="color:#000080">30</a>
+          <a  href="#0" class='hvr-shrink' style="color:#000080">00</a>
+        </h1>
+      </div>
+    </header>
+
+    <div class='main wrap'>
+
+    <div class='artist-all'>
+    <div class="artist accordion">
+      <div class='artist-name' data-splitting data-id='info'> 
+          <a  href="#0" class='hvr-skew'>A</a>
+          <a  href="#0" class='hvr-pop'>n</a>
+          <a  href="#0" class='hvr-grow'>d</a>
+          <a  href="#0" class='hvr-bob'>r</a>
+          <a  href="#0" class='hvr-skew'>a</a>
+          <a  href="#0" class='hvr-shrink'>s</a>
+      </div>
+      <div class='artist-name' data-splitting>
+          <a  href="#0" class='hvr-pop'>F</a>
+          <a  href="#0" class='hvr-grow'>o</a>
+          <a  href="#0" class='hvr-bob'>x</a>
+          <a  href="#0" class='hvr-float'>@</a>
+      </div>
+      <div class="artist">
+      <div class='artist-song' data-splitting>
+          <a  href="#0" class='hvr-wobble-vertical'>-</a>
+          <a  href="#0" class='hvr-skew'>Y</a>
+          <a  href="#0" class='hvr-pop'>o</a>
+          <a  href="#0" class='hvr-grow'>u</a>
+          <a  href="#0" class='hvr-bob'>r</a>         
+      </div>
+      <div class='artist-song' data-splitting>
+          <a  href="#0" class='hvr-skew'>L</a>
+          <a  href="#0" class='hvr-shrink'>i</a>
+          <a  href="#0" class='hvr-bob'>f</a>
+          <a  href="#0" class='hvr-bob'>e</a>
+      </div>
+    </div>
+    </div>
+
+
+     <!--accordion-->
+    <div class="panel1">
+      <div class='info-cont'>
+        <div class='para'>
+          <div class='para-name'><div>Andrew Wilson</div>
+          <img class='images'src="assets/images/andras.jpg" width="100" height="100">
+          </div>
+          <p class='para-info'>Andrew co-hosts the radio show 'Strange Holiday' on 3RRR 102.7fm.</p>
+
+          <a href="https://soundcloud.com/andraaaaaas" class="para-href"> Artist profile - soundcloud</a>
+        </div>
+        <div class='soundcloud'>
+          <iframe width="500" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/65199107&color=%2300ff65&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class='artist-all'>
+    <div class="artist">
+      <div class='artist-name' data-splitting data-id='info'>
+          <span class='hvr-skew'>S</span>
+          <span class='hvr-pop'>l</span>
+          <span class='hvr-grow'>e</span>
+          <span class='hvr-bob'>e</span>
+          <span class='hvr-skew'>p</span>
+          
+      </div>
+      <div class='artist-name' data-splitting>
+          <span class='hvr-shrink'>D</span>
+          
+      </div>
+      <div class='artist-name' data-splitting>
+          <span class='hvr-shrink'>L</span>
+          <span class='hvr-float'>i</span>
+          <span class='hvr-grow'>v</span>
+          <span class='hvr-bob'>e</span>
+          <span class='hvr-float'>@</span>
+          
+      </div>
+      <div class="artist">
+      <div class='artist-song' data-splitting>
+          <span class='hvr-wobble-vertical'>-</span>
+          <span class='hvr-skew'>I</span>
+          <span class='hvr-pop'>n</span>
+          <span class='hvr-grow'>n</span>
+          <span class='hvr-bob'>e</span>
+          <span class='hvr-shrink'>r</span>
+
+      </div>
+      <div class='artist-song' data-splitting>
+          <span class='hvr-skew'>V</span>
+          <span class='hvr-shrink'>a</span>
+          <span class='hvr-bob'>r</span>
+          <span class='hvr-bob'>n</span>
+          <span class='hvr-pop'>i</span>
+          <span class='hvr-skew'>k</span>
+          <span class='hvr-pop'>a</span>
+        </div>
+        <div class="artist-song" data-splitting>
+          <span class='hvr-pop'>M</span>
+          <span class='hvr-skew'>I</span>
+          <span class='hvr-pop'>X</span>
+          <span class='hvr-bob'>-</span>
+          <span class='hvr-grow'>(</span>
+          <span class='hvr-bob'>2</span>
+          <span class='hvr-grow-rotate'>0</span>
+          <span class='hvr-bob'>1</span>
+          <span class='hvr-bob'>5</span>
+          <span class='hvr-rotate'>)</span>
+        </div>
+
+      </div>
 
 
 
+  </div>
+</div>
+
+   
+    
+    
+
+    
 
 
 
+  </div>
+  </div>
 
-
+  <footer>
+    
+  </footer>
 
     <!-- DO NOT REMOVE BELOW -->
     <!-- end here -->
+    
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="flowtype.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-awesome-cursor/dist/jquery.awesome-cursor.min.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/anime.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script> console.clear();
+
+          var s = Splitting();
+          Splitting.chars("[data-splitting-chars]");  
+
+          $('html')
+  .awesomeCursor('fighter-jet', {
+    color: 'hotpink',
+    size: 24,
+    flip: 'horizontal'
+  });
+
+    </script>
+
   </body>
 </html>

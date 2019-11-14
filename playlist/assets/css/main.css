@@ -1,9 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,500i,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800&display=swap');
+
+*{
+  	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+
+}
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif; 
 }
 
-a {
-	color:red;
+h1,h2,h3,h4,h5,h6,p {
+   line-height: 1.45;
 }
+
+
+h4{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight:800;
+}
+#head{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight:600;
+	margin-top: 27px;
+	font-size: 3vw;
+}
+
+.wrap{
+	width: 95vw;
+}
+.main{
+	margin:0 0 0 4em;
+	
+}
+.artist{
+	display: inline-block;
+}
+.artist-name{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight:600;
+	font-size: 3vw;
+    display: inline-block;
+    margin-right: 1em;
+}
+.artist-song{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight:600;
+	font-size: 3vw;
+	display: inline-block;
+	margin-right: 1em;
+}
+.info{
+	margin: 1em 0;
+	display: block;
+	width: 90%;
+	height: 400px;
+}
+.info-cont{
+	display: block;	
+	
+	padding-left: 15px;
+	
+}
+.para{
+	float: left;
+	font-size: 0.8em;
+	margin-right: 10em;
+	width: 40%;
+	line-height:1.45;
+}
+.para-name{
+	
+}
+.para-info{
+	margin: 10% 0;
+	width: 300px;	
+	font-family: 'Major Mono', monospace; 
+}
+a.para-href {
+    font-size: 1em;
+    margin-top: 20%;
+}
+.images{
+	float: right;
+	margin-left: 10%;
+}
+
+.accordion .panel1.active{
+	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	-ms-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+
+}
+
+
+.panel1 {
+  display: none;
+  overflow: hidden;
+  transition: all 1s ease;
+
+}
+.active .panel1{
+	transition: all 1s ease;
+
+}
+.active .accordion:hover,
+
+.songs{
+	font-size: 5rem;
+	margin-top: 15%;
+	line-height: 1.45;
+}
+.marquee {
+  	width: 100%;
+  	overflow: hidden;
+}
+
+a{
+	font-family: 'IBM Plex Mono', monospace;
+    font-size: 3em;
+    border:0.1em solid #FFFFFF; 
+    color: black;
+ 	margin:0 0.3em 0.3em 0;
+  
+}
+a:link{
+    color: black;
+}
+a:hover{	
+	color: black !important;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1030px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+
+
+@media only screen and (min-width: 481px){
+
+}
+
+
+
+
+
+
+
 

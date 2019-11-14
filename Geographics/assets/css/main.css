@@ -17,12 +17,15 @@ iframe {
 }
 
 .index-intro{
-  font-size: 18px;
-  margin-bottom: 25vh;
+  font-size: 110px;
+  margin-bottom: 20vh;
   padding:10px;
-
+  font-family: 'Special Elite', cursive;
 }
-
+.name{
+  font-size: 10vh;
+  float: right;
+}
 .index-row{
 	display: flex;
 	flex-wrap: wrap;
